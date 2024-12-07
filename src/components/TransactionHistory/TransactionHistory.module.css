@@ -1,0 +1,36 @@
+.table {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}   
+
+.tableTop {
+    width: 150px;
+    background-color: #331a00;
+    color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.strokeTable {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    width: 150px;
+    margin-top: 0;
+    border: 1px solid black;
+}
+
+.trTable {
+    display: flex;
+    flex-direction: row;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d3d3d3;
+    /* Світло-сірий колір */
+} 
+
